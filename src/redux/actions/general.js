@@ -1,8 +1,8 @@
 export const actions = {
-  SET_TEST_KEY: 'SET_TEST_KEY',
+  SET_TEST_PRODUCTS: 'SET_TEST_PRODUCTS',
 };
 
-export const setTestKey = data => ({
-  type: actions.SET_TEST_KEY,
+export const setTestProducts = data => ({
+  type: actions.SET_TEST_PRODUCTS,
   data,
 });

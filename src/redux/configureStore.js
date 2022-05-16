@@ -5,7 +5,6 @@ import { createBrowserHistory } from 'history';
 import createRootReducer from './reducers';
 
 const history = createBrowserHistory();
-console.log(history);
 
 const composeEnhancers = typeof window === 'object'
   && window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__
